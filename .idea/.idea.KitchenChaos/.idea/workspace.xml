@@ -1,9 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed277cca-ee68-4681-9364-8abdb8d88999" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerInputActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerInputActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerInputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerInputActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/CountersVisuals/ClearCounter_Visual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/CountersVisuals/ClearCounter_Visual.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/PlateCompleteVisual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/PlateCompleteVisual.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/PlayerVisual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/PlayerVisual.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/GameInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/GameInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/PlayerAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Scripts/PlayerAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/DeliveryManagerSingleUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/GamePauseUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlateCompleteVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound/StoveCounterSound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IKitchenObjectParent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1E29A71-158E-46CD-B750-140A667AEA01/64/1c947c4e/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/PlateIconsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/GameStartCountdownUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IHasProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/OptionsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/ProgressBarUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/StoveCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/PlatesCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/DeliveryCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BurningRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/AudioClipRefsSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/StoveCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/GameOverUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/StoveBurningWarningUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/PlatesCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/TutorialUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.11/Editor/Generation/Enumerations/IncludeLocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FryingRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/PlateIconsSingleUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/GamePlayingClockUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RecipeListSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E805C1B-487F-43E2-850D-CFD014B44A0C/75/eeab41d6/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Counter/CuttingCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound/PlayerSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetStaticDataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/StoveBurnFlashingBarUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IU/DeliveryResultUI.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/CuttingCounterVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FryingRecipeSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BurningRecipeSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/StoveCounterVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IHasProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/ProgressBarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/ClearCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/SelectedCounterVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlateCompleteVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/PlateIconsSingleUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/PlateIconsUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/PlatesCounterVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/ContainerCounterVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RcipeListSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RecipeSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RecipeListSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/DeliveryManagerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/DeliveryManagerSingleUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/AudioClipRefsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/DeliveryCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/PlayerSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/GameOverUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader/LoaderCollback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader/Loader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader/LoaderCallback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/GamePlayingClockUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/MainMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/BaseCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/TrashCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStaticDataManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/CuttingCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/OptionsUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/GamePauseUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/TutorialUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/PlatesCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/GameStartCountdownUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Counter/StoveCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/StoveBurningWarningUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/StoveCounterSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/StoveBurnFlashingBarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IU/DeliveryResultUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2s7jcavni07Yry53Hu7kuaWCvhA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Unity/KitchenChaos\KitchenChaos.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Bananchik\Documents\Unity\KitchenChaos" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -22,5 +207,134 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed277cca-ee68-4681-9364-8abdb8d88999" name="Default Changelist" comment="" />
+      <created>1737813591272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737813591272</updated>
+      <workItem from="1737813603658" duration="3265000" />
+      <workItem from="1738139998759" duration="12429000" />
+      <workItem from="1738159529809" duration="2866000" />
+      <workItem from="1738251393374" duration="3404000" />
+      <workItem from="1738599315489" duration="2578000" />
+      <workItem from="1738855533024" duration="3027000" />
+      <workItem from="1738916145090" duration="9673000" />
+      <workItem from="1739289158595" duration="1123000" />
+      <workItem from="1739520246147" duration="17447000" />
+      <workItem from="1739616739452" duration="7699000" />
+      <workItem from="1739736150373" duration="456000" />
+      <workItem from="1739890007002" duration="7184000" />
+      <workItem from="1739956602536" duration="4801000" />
+      <workItem from="1739962186321" duration="10610000" />
+      <workItem from="1739983418261" duration="2143000" />
+      <workItem from="1740215858896" duration="8006000" />
+      <workItem from="1740299309799" duration="16664000" />
+      <workItem from="1740566845714" duration="887000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add .gitattributes and .gitignore">
+      <created>1737813712119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737813712119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add new project With all materials">
+      <created>1737813924988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737813924988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add complete solo game KitchenChaos">
+      <created>1740567050999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740567050999</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add .gitattributes and .gitignore" />
+    <MESSAGE value="Add new project With all materials" />
+    <MESSAGE value="Add complete solo game KitchenChaos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add complete solo game KitchenChaos" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="255" key="#Web_Browsers" timestamp="1740567098449">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="651" y="255" key="#Web_Browsers/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1740567098449" />
+    <state x="477" y="43" key="CommitChangelistDialog2" timestamp="1740567049749">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="477" y="43" key="CommitChangelistDialog2/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1740567049749" />
+    <state x="164" y="77" width="1365" height="771" key="DiffContextDialog" timestamp="1739961779387">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="164" y="77" width="1365" height="771" key="DiffContextDialog/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1739961779387" />
+    <state x="654" y="167" key="RiderGenerateDialog" timestamp="1739962195532">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="654" y="167" key="RiderGenerateDialog/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1739962195532" />
+    <state x="355" y="110" key="SettingsEditor" timestamp="1739962655803">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="355" y="110" key="SettingsEditor/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1739962655803" />
+    <state x="446" y="198" key="Vcs.Push.Dialog.v2" timestamp="1740567106616">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="446" y="198" key="Vcs.Push.Dialog.v2/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1740567106616" />
+    <state x="93" y="93" width="1521" height="744" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1739961779387">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="93" y="93" width="1521" height="744" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1739961779387" />
+    <state x="671" y="379" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1740308856201">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="671" y="379" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1740308856201" />
+    <state x="510" y="213" key="run.anything.popup" timestamp="1739969198124">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="510" y="213" key="run.anything.popup/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1739969198124" />
+    <state x="516" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1740316835067">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="516" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1707.929/2560.0.1920.1050@0.0.1707.929" timestamp="1740316835067" />
   </component>
 </project>

@@ -24,14 +24,14 @@ namespace Counter
                     if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
                     {
                         if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKithcenObjectSO()))
-                            GetKitchenObject().DestroySelf();
+                            KitchenObject.DestroyKitchenObject(GetKitchenObject());
                     }
                     else
                     {
                         if (GetKitchenObject().TryGetPlate(out plateKitchenObject))
                         {
                             if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKithcenObjectSO()))
-                                player.GetKitchenObject().DestroySelf();
+                                KitchenObject.DestroyKitchenObject(player.GetKitchenObject());
                         }
                     }
                 }

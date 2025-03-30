@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class GameInput : MonoBehaviour
 {
     private const string PLAYER_PREFS_BINDINGS = "InputBindings";
-    public static GameInput Instance { get; private set; }
+     public static GameInput Instance { get; private set; }
     
     public event EventHandler OnInteractAction;
     public event EventHandler OnInteractAlternateAction;

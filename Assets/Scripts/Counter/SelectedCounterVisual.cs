@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Counter
@@ -7,8 +8,26 @@ namespace Counter
         [SerializeField] private BaseCounter _baseCounter;
         [SerializeField] private GameObject[] visualGameObjectArray;
 
-        private void Start() => 
-            Player.Instance.OnSelectedCounterChanged += Player_OnSelectedCounterChanged;
+        private void Start()
+        {
+            if (Player.LocalInstance != null)
+            {
+                Player.LocalInstance.OnSelectedCounterChanged += Player_OnSelectedCounterChanged;
+            }
+            else
+            {
+                Player.OnAnyPlayerSpawned += PlayerOnAnyPlayerSpawned;
+            }
+        }
+
+        private void PlayerOnAnyPlayerSpawned(object sender, EventArgs e)
+        {
+            if (Player.LocalInstance != null)
+            {
+                Player.LocalInstance.OnSelectedCounterChanged -= Player_OnSelectedCounterChanged;
+                Player.LocalInstance.OnSelectedCounterChanged += Player_OnSelectedCounterChanged;
+            }
+        }
 
         private void Player_OnSelectedCounterChanged(object sender, Player.OnSelectedCounterChangedEventArgs e)
         {

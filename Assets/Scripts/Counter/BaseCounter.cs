@@ -1,9 +1,10 @@
 using System;
+using Unity.Netcode;
 using UnityEngine;
 
 namespace Counter
 {
-    public class BaseCounter : MonoBehaviour, IKitchenObjectParent
+    public class BaseCounter : NetworkBehaviour, IKitchenObjectParent
     {
         public static event EventHandler OnAnyObjectPlaceHere;
         
@@ -53,6 +54,11 @@ namespace Counter
         public bool HasKitchenObject()
         {
             return _kitchenObject != null;
+        }
+
+        public NetworkObject GetNetworkObject()
+        {
+            return NetworkObject;
         }
     }
 }

@@ -8,13 +8,105 @@
       <e p="Assets" t="Include">
         <e p="_Assets" t="Include">
           <e p="KitchenChaos_COMPLETE_PROJECT.txt" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="GameInput.cs" t="Include" />
-            <e p="Player.cs" t="Include" />
-            <e p="PlayerAnimator.cs" t="Include" />
-          </e>
         </e>
         <e p="PlayerInputActions.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Counter" t="Include">
+            <e p="BaseCounter.cs" t="Include" />
+            <e p="ClearCounter.cs" t="Include" />
+            <e p="ContainerCounter.cs" t="Include" />
+            <e p="ContainerCounterVisual.cs" t="Include" />
+            <e p="CuttingCounter.cs" t="Include" />
+            <e p="CuttingCounterVisual.cs" t="Include" />
+            <e p="DeliveryCounter.cs" t="Include" />
+            <e p="PlatesCounter.cs" t="Include" />
+            <e p="PlatesCounterVisual.cs" t="Include" />
+            <e p="SelectedCounterVisual.cs" t="Include" />
+            <e p="StoveCounter.cs" t="Include" />
+            <e p="StoveCounterVisual.cs" t="Include" />
+            <e p="TrashCounter.cs" t="Include" />
+          </e>
+          <e p="DeliveryManager.cs" t="Include" />
+          <e p="GameInput.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="IHasProgress.cs" t="Include" />
+          <e p="IKitchenObjectParent.cs" t="Include" />
+          <e p="IU" t="Include">
+            <e p="DeliveryManagerSingleUI.cs" t="Include" />
+            <e p="DeliveryManagerUI.cs" t="Include" />
+            <e p="DeliveryResultUI.cs" t="Include" />
+            <e p="GameOverUI.cs" t="Include" />
+            <e p="GamePauseUI.cs" t="Include" />
+            <e p="GamePlayingClockUI.cs" t="Include" />
+            <e p="GameStartCountdownUI.cs" t="Include" />
+            <e p="MainMenuUI.cs" t="Include" />
+            <e p="OptionsUI.cs" t="Include" />
+            <e p="PlateIconsSingleUI.cs" t="Include" />
+            <e p="PlateIconsUI.cs" t="Include" />
+            <e p="ProgressBarUI.cs" t="Include" />
+            <e p="StoveBurnFlashingBarUI.cs" t="Include" />
+            <e p="StoveBurningWarningUI.cs" t="Include" />
+            <e p="TutorialUI.cs" t="Include" />
+          </e>
+          <e p="KitchenObject.cs" t="Include" />
+          <e p="Loader" t="Include">
+            <e p="Loader.cs" t="Include" />
+            <e p="LoaderCallback.cs" t="Include" />
+          </e>
+          <e p="LookAtCamera.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
+          <e p="PlateCompleteVisual.cs" t="Include" />
+          <e p="PlateKitchenObject.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerAnimator.cs" t="Include" />
+          <e p="ResetStaticDataManager.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="AudioClipRefsSO.cs" t="Include" />
+            <e p="BurningRecipeSO.cs" t="Include" />
+            <e p="CuttingRecipeSO.cs" t="Include" />
+            <e p="FryingRecipeSO.cs" t="Include" />
+            <e p="KitchenObjectSO.cs" t="Include" />
+            <e p="RecipeListSO.cs" t="Include" />
+            <e p="RecipeSO.cs" t="Include" />
+          </e>
+          <e p="Sound" t="Include">
+            <e p="PlayerSounds.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
+            <e p="StoveCounterSound.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="KitchenChaos.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
