@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a4b2160dbcd01469e967939686140d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: b03bf46a946143f44bbb37d5fef79abd, type: 2}
   counterTopPoint: {fileID: 6754592054526702559}
+  kitchenObjectSO: {fileID: 11400000, guid: b03bf46a946143f44bbb37d5fef79abd, type: 2}
 --- !u!4 &7649368057551735187 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: 0004cb1e11ad014419b943c7da960724,
@@ -156,6 +156,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2445152883112918549, guid: ee09310f272690648ab7fd208e898007,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
     - target: {fileID: 4758337977773132528, guid: ee09310f272690648ab7fd208e898007,
         type: 3}
       propertyPath: m_Name
@@ -196,8 +201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a4b2160dbcd01469e967939686140d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: b03bf46a946143f44bbb37d5fef79abd, type: 2}
   counterTopPoint: {fileID: 7327091040485700662}
+  kitchenObjectSO: {fileID: 11400000, guid: b03bf46a946143f44bbb37d5fef79abd, type: 2}
 --- !u!4 &6754592054526702559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 208009609281364120, guid: ee09310f272690648ab7fd208e898007,
