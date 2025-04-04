@@ -30,20 +30,20 @@ namespace IU
         }
         private void Start()
         {
-            GameManager.Instance.OnGamePaused += KitchenGameManager_OnGamePaused;
-            GameManager.Instance.OnGameUnpaused += KitchenGameManager_OnGameUnpaused;
-            
+            GameManager.Instance.OnLocalGamePaused += GameManager_OnLocalGamePaused;
+            GameManager.Instance.OnLocalGameUnpaused += GameManager_OnLocalGameUnpaused;
+
             Hide();
         }
 
-        private void KitchenGameManager_OnGamePaused(object sender, EventArgs e)
+        private void GameManager_OnLocalGameUnpaused(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void GameManager_OnLocalGamePaused(object sender, EventArgs e)
         {
             Show();
-        }
-
-        private void KitchenGameManager_OnGameUnpaused(object sender, EventArgs e)
-        {
-            Hide();
         }
 
         private void Show()
