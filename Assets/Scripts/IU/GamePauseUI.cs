@@ -1,4 +1,5 @@
 using System;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,7 @@ namespace IU
          
          mainMenuButton.onClick.AddListener(() =>
          {
+             NetworkManager.Singleton.Shutdown();
              Loader.Loader.Load(Loader.Loader.Scene.MainMenuScene);
          });   
          

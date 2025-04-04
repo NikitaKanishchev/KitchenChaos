@@ -9,11 +9,12 @@ namespace IU
     {
         [SerializeField] private TextMeshProUGUI _countdownText;
 
-        private const string NUMBER_POPUP = "NumberPopUp";
+        private const string NumberPopup = "NumberPopUp";
 
         private Animator _animator;
 
         private int _previousCountdownNumber;
+        private static readonly int NumberPopUp = Animator.StringToHash(NumberPopup);
 
         private void Awake()
         {
@@ -35,7 +36,7 @@ namespace IU
             if (_previousCountdownNumber != countdownNumber)
             {
                 _previousCountdownNumber = countdownNumber;
-                _animator.SetTrigger(NUMBER_POPUP);
+                _animator.SetTrigger(NumberPopUp);
                 
                 SoundManager.Instance.PlayCountdownSound();
             }
