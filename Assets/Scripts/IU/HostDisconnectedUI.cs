@@ -1,4 +1,3 @@
-using System;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
@@ -32,6 +31,11 @@ namespace IU
         private void Hide()
         {
             gameObject.SetActive(false);
+        }
+
+        private void OnDestroy()
+        {
+            NetworkManager.Singleton.OnClientDisconnectCallback -= NetworkManager_OnClientDisconnectCallback;
         }
     }
 }

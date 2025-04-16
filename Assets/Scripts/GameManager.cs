@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : NetworkBehaviour
 {
@@ -21,6 +22,8 @@ public class GameManager : NetworkBehaviour
     private NetworkVariable<float> _countdownToStartTimer = new NetworkVariable<float>(3f);
     private NetworkVariable<float> _gamePlayingTimer = new NetworkVariable<float>(0f);
     private NetworkVariable<bool> _isGamePaused = new NetworkVariable<bool>(false);
+
+    [SerializeField] private Transform _playerPrefab;
     
     private float gamePlayingTimerMax = 100f;
 
@@ -59,6 +62,16 @@ public class GameManager : NetworkBehaviour
         if (IsServer)
         {
             NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
+            NetworkManager.Singleton.SceneManager.OnLoadEventCompleted += SceneManager_OnLoadEventCompleted;
+        }
+    }
+
+    private void SceneManager_OnLoadEventCompleted(string scenename, LoadSceneMode loadscenemode, List<ulong> clientscompleted, List<ulong> clientstimedout)
+    {
+        foreach (ulong clientId in NetworkManager.Singleton.ConnectedClientsIds)
+        {
+            Transform playerTransform = Instantiate(_playerPrefab);
+            playerTransform.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId, true);
         }
     }
 
@@ -178,6 +191,9 @@ public class GameManager : NetworkBehaviour
 
     public bool IsGameOver() => 
         _state.Value == State.GameOver;
+
+    public bool IsWaitingToStart() => 
+        _state.Value == State.WaitingToStart;
 
     public bool IsLocalPlayerReady() => 
         _isLocalPlayerReady;

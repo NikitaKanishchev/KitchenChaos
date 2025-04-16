@@ -12,7 +12,7 @@ namespace IU
         {
             playButton.onClick.AddListener(() =>
             {
-                Loader.Loader.Load(Loader.Loader.Scene.GameScene);
+                Loader.Loader.Load(Loader.Loader.Scene.LobbyScene);
             });
             
             exitButton.onClick.AddListener(() =>

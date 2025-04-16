@@ -109,7 +109,8 @@ public class DeliveryManager : NetworkBehaviour
         OnRecipeFailed?.Invoke(this, EventArgs.Empty);
     }
     
-    [ServerRpc(RequireOwnership = false)] private void DeliveryCorrectRecipeServerRpc(int waitingRecipeSPListIndex)
+    [ServerRpc(RequireOwnership = false)] 
+    private void DeliveryCorrectRecipeServerRpc(int waitingRecipeSPListIndex)
     {
         DeliverCorrectRecipeClientRpc(waitingRecipeSPListIndex);
     }
