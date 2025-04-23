@@ -8,6 +8,15 @@ namespace IU
     {
         [SerializeField] private Button playAgainButton;
 
+        private void Awake()
+        {
+            playAgainButton.onClick.AddListener(() =>
+            {
+                NetworkManager.Singleton.Shutdown();
+                Loader.Loader.Load(Loader.Loader.Scene.MainMenuScene);
+            });
+        }
+
         private void Start()
         {
             NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
