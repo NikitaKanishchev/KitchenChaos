@@ -73,8 +73,9 @@ namespace IU
 
             foreach (Lobby lobby in lobbyList)
             {
-                Transform lobbyTransform = Instantiate(lobbyTemplate);
+                Transform lobbyTransform = Instantiate(lobbyTemplate , lobbyContainer);
                 lobbyTransform.gameObject.SetActive(true);
+                lobbyTransform.GetComponent<LobbyListSingleUI>().SetLobby(lobby);
             }
         }
     }

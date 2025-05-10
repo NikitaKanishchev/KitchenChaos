@@ -18,6 +18,7 @@ namespace IU
         {
             mainMenuButton.onClick.AddListener(() =>
             {
+                KitchenGameLobby.Instance.LeaveLobby();
                 NetworkManager.Singleton.Shutdown();
                 Loader.Loader.Load(Loader.Loader.Scene.MainMenuScene);
             });

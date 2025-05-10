@@ -152,6 +152,22 @@ public class KitchenGameLobby : MonoBehaviour
             OnQuickJoinFailed?.Invoke(this,EventArgs.Empty);
         }
     }
+    
+    public async void JoinWithId(string lobbyId)
+    {
+        OnJoinStated?.Invoke(this,EventArgs.Empty);
+        try
+        {
+            _joinedLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
+            
+            KitchenGameMultiplayer.Instance.StartClient();
+        }
+        catch (LobbyServiceException e)
+        {
+            Debug.Log(e);
+            OnJoinFailed?.Invoke(this,EventArgs.Empty);
+        }
+    }
 
     public async void JoinWithCode(string lobbyCode)
     {

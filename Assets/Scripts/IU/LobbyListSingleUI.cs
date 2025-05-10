@@ -1,19 +1,29 @@
+using System;
+using TMPro;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace IU
 {
     public class LobbyListSingleUI : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        [SerializeField] private TextMeshProUGUI lobbyNameText;
         
+        private Lobby _lobby;
+
+        private void Awake()
+        {
+            GetComponent<Button>().onClick.AddListener(() =>
+            {
+                KitchenGameLobby.Instance.JoinWithId(_lobby.Id);
+            });
         }
 
-        // Update is called once per frame
-        void Update()
+        public void SetLobby(Lobby lobby)
         {
-        
+            _lobby = lobby;
+            lobbyNameText.text = lobby.Name;
         }
     }
 }
