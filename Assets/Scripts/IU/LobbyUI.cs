@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +16,8 @@ namespace IU
         [SerializeField] private TMP_InputField joinCodeInputField;
         [SerializeField] private TMP_InputField playerNameInputField;
         [SerializeField] private LobbyCreateUI _lobbyCreateUI;
+        [SerializeField] private Transform lobbyContainer;
+        [SerializeField] private Transform lobbyTemplate;
 
         private void Awake()
         {
@@ -37,6 +41,8 @@ namespace IU
             {
                 KitchenGameLobby.Instance.JoinWithCode(joinCodeInputField.text);
             });
+            
+            lobbyTemplate.gameObject.SetActive(false);
         }
 
         private void Start()
@@ -47,6 +53,29 @@ namespace IU
             {
                 KitchenGameMultiplayer.Instance.SetPlayerName(newText);
             });
+            
+            KitchenGameLobby.Instance.OnLobbyListChanged += KithcenGameLobby_OnLobbyListChanged;
+            UpdateLobbyList(new List<Lobby>());
+        }
+
+        private void KithcenGameLobby_OnLobbyListChanged(object sender, KitchenGameLobby.OnLobbyListChangedEventArgs e)
+        {
+            UpdateLobbyList(e.lobbyList);
+        }
+
+        private void UpdateLobbyList(List<Lobby> lobbyList)
+        {
+            foreach (Transform child in lobbyContainer)
+            {
+                if(child == lobbyTemplate) continue;
+                Destroy(child.gameObject);
+            }
+
+            foreach (Lobby lobby in lobbyList)
+            {
+                Transform lobbyTransform = Instantiate(lobbyTemplate);
+                lobbyTransform.gameObject.SetActive(true);
+            }
         }
     }
 }

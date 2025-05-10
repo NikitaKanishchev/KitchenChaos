@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Lobbies;
@@ -15,11 +16,19 @@ public class KitchenGameLobby : MonoBehaviour
     public event EventHandler OnJoinStated;
     public event EventHandler OnQuickJoinFailed;
     public event EventHandler OnJoinFailed;
+    public event EventHandler<OnLobbyListChangedEventArgs> OnLobbyListChanged;
+    
+    public class OnLobbyListChangedEventArgs : EventArgs
+    {
+        public List<Lobby> lobbyList;
+    }
 
     private Lobby _joinedLobby;
 
     private float _heartBeatTimer;
     private float _heartBeatTimerMax = 15f;
+    private float _listLobbiesTimer;
+    private float _listLobbiesTimerMax = 3f;
 
     private void Awake()
     {
@@ -46,6 +55,21 @@ public class KitchenGameLobby : MonoBehaviour
     private void Update()
     {
         HandleHeartBeat();
+        HandlePeriodicListLobbies();
+    }
+
+    private void HandlePeriodicListLobbies()
+    {
+        if (_joinedLobby == null && AuthenticationService.Instance.IsSignedIn)
+        {
+            _listLobbiesTimer -= Time.deltaTime;
+            if (_listLobbiesTimer <= 0f)
+            {
+                _listLobbiesTimer = _listLobbiesTimerMax;
+
+                ListLobbies();
+            }
+        }
     }
 
     private void HandleHeartBeat()
@@ -65,6 +89,30 @@ public class KitchenGameLobby : MonoBehaviour
     private bool IsLobbyHost()
     {
         return _joinedLobby != null && _joinedLobby.HostId == AuthenticationService.Instance.PlayerId;
+    }
+
+    private async void ListLobbies()
+    {
+        try
+        {
+            QueryLobbiesOptions queryLobbiesOptions = new QueryLobbiesOptions
+            {
+                Filters = new List<QueryFilter>
+                {
+                    new QueryFilter(QueryFilter.FieldOptions.AvailableSlots, "0", QueryFilter.OpOptions.GT)
+                }
+            };
+            QueryResponse queryResponse = await LobbyService.Instance.QueryLobbiesAsync(queryLobbiesOptions);
+
+            OnLobbyListChanged?.Invoke(this, new OnLobbyListChangedEventArgs
+            {
+                lobbyList = queryResponse.Results
+            });
+        }
+        catch (LobbyServiceException e)
+        {
+            Debug.Log(e);
+        }
     }
 
     public async void CreateLobby(string lobbyName, bool isPrivate)
